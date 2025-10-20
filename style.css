@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    color: #15141A;
 }
 body {
     font-family: "Nunito", sans-serif;
@@ -13,7 +14,7 @@ img {
     vertical-align: middle;
 }
 .big {
-    background-color: #826AF9;
+    background-color: #F8CF2C;
     min-height: 100svh;
     padding: 35px;
     display: flex;
@@ -48,6 +49,12 @@ img {
     padding: 6px;
     border-radius: 4px;
 }
+.input::placeholder {
+    color: #33515592;
+}
+.select {
+    color: #335155;
+}
 .inp {
     width: 20px;
     height: 20px;
@@ -55,17 +62,19 @@ img {
 .label, .labl {
     display: inline-block;
     font-size: 18px;
+    color: #335155;
 }
 .label {
     margin-bottom: 3px;
 }
 .button {
     border: none;
-    background-color: #826AF9;
+    background-color: #AB202A;
     color: white;
-    padding: 10px;
+    padding: 8px;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 18px;
 }
 .radiobox {
     margin-bottom: 25px;
